@@ -1,0 +1,13 @@
+WEBSITE: Historia e Evolucao da Escola Secundaria Marien Ngouabi
+
+PUBLICAR NO GITHUB PAGES
+1. Criem um repositorio Public no GitHub.
+2. Add file > Upload files: carreguem o index.html e a pasta imagens.
+3. Commit.
+4. Settings > Pages > Branch: main, pasta / (root) > Save.
+5. Link: https://USUARIO.github.io/NOME-DO-REPOSITORIO/
+
+ANTES DE APRESENTAR
+- Completar a pagina Grupo (turma, professor, membros).
+- Confirmar com a Direccao a data de aniversario da escola e os primeiros responsaveis (nota na pagina Cronologia).
+- Se usarem fotografias: creditos nas Referencias e autorizacao das pessoas que aparecem.

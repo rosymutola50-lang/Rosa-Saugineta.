@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-MZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>História e Evolução da Escola Secundária Marien Ngouabi</title>
+<meta name="description" content="Website educativo sobre a história e a evolução da Escola Secundária Marien Ngouabi, Xai-Xai, Gaza.">
+<style>
+:root{--c1:#0f4c81;--c2:#d99a00;--bg:#f6f9fc;--tx:#14263a;--card:#fff;--soft:#e4eef8}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--tx);line-height:1.65}
+header{background:linear-gradient(120deg,var(--c1),#1b78c2);color:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 10px #0003}
+.bar{max-width:1000px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:.7rem 1rem}
+.logo{font-weight:800;font-size:1.05rem}
+#tg{display:none;background:none;border:2px solid #fff;color:#fff;border-radius:8px;font-size:1.3rem;padding:.1rem .6rem;cursor:pointer}
+nav{display:flex;gap:.2rem;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;padding:.4rem .7rem;border-radius:20px;font-size:.9rem}
+nav a:hover,nav a.on{background:#fff3}
+nav a.on{box-shadow:inset 0 -3px var(--c2)}
+main{max-width:1000px;margin:auto;padding:1.2rem 1rem 3rem}
+.page{display:none;animation:f .4s}
+.page.on{display:block}
+@keyframes f{from{opacity:0;transform:translateY(8px)}to{opacity:1}}
+h1{font-size:clamp(1.8rem,5vw,2.7rem);line-height:1.15;color:var(--c1)}
+h2{color:var(--c1);margin:1.4rem 0 .6rem;font-size:1.5rem;border-bottom:3px solid var(--c2);display:inline-block;padding-bottom:.1rem}
+h3{color:#a56f00;margin:1.1rem 0 .4rem}
+p{margin:.6rem 0}
+ul,ol{margin:.5rem 0 .5rem 1.3rem}
+li{margin:.3rem 0}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:1.5rem;align-items:center;padding:1rem 0}
+.hero p.lead{font-size:1.1rem;margin:1rem 0}
+.btn{display:inline-block;background:linear-gradient(120deg,var(--c1),#1b78c2);color:#fff;text-decoration:none;padding:.7rem 1.4rem;border-radius:30px;font-weight:700;margin:.3rem .3rem .3rem 0}
+.btn.alt{background:#fff;color:var(--c1);border:2px solid var(--c1)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1rem 0}
+.card{background:var(--card);border-radius:16px;padding:1.1rem;box-shadow:0 3px 14px #0f4c811a;border-top:4px solid var(--c2)}
+.card h3{margin-top:0}
+.quote{background:var(--soft);border-left:5px solid var(--c2);padding:1rem 1.2rem;border-radius:10px;font-style:italic;margin:1.2rem 0}
+.stat{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.stat span{background:var(--soft);padding:.5rem 1rem;border-radius:20px;font-weight:700;color:var(--c1)}
+.tl{position:relative;margin:1.5rem 0 1rem 1rem;padding-left:1.5rem;border-left:4px solid var(--c1)}
+.tl .it{position:relative;background:var(--card);border-radius:14px;padding:.8rem 1rem;margin:0 0 1rem;box-shadow:0 2px 10px #0001}
+.tl .it::before{content:"";position:absolute;left:-2.2rem;top:1rem;width:16px;height:16px;border-radius:50%;background:var(--c2);border:3px solid #fff;box-shadow:0 0 0 2px var(--c1)}
+.tl b{color:var(--c1);display:block}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.8rem;margin:1rem 0}
+.steps div{background:var(--c1);color:#fff;border-radius:14px;padding:.9rem;text-align:center}
+.steps div:nth-child(even){background:var(--c2);color:#1b1400}
+.steps small{display:block;opacity:.85;margin-top:.2rem}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 2px 10px #0001;margin:1rem 0}
+th{background:var(--c1);color:#fff;text-align:left}
+th,td{padding:.6rem .8rem;border-bottom:1px solid var(--soft)}
+.wrap{overflow-x:auto}
+.note{background:#fff8e1;border:1px dashed #f59e0b;padding:.8rem 1rem;border-radius:10px;font-size:.92rem;margin:1rem 0}
+.ph{width:100%;max-height:300px;object-fit:cover;border-radius:16px;margin:.8rem 0;display:block;box-shadow:0 3px 14px #0002}
+details{background:var(--card);border-radius:12px;padding:.8rem 1rem;margin:.6rem 0;box-shadow:0 2px 8px #0001}
+summary{cursor:pointer;font-weight:700;color:var(--c1)}
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin:1rem 0}
+.gal figure{background:var(--card);border-radius:14px;overflow:hidden;box-shadow:0 3px 14px #0f4c811a}
+.gal img{width:100%;height:210px;object-fit:cover;display:block;cursor:zoom-in}
+.gal figcaption,figure.fg figcaption{padding:.6rem .8rem;font-size:.9rem}
+figure.fg{background:var(--card);border-radius:16px;overflow:hidden;box-shadow:0 3px 14px #0f4c811a;margin:1rem 0}
+figure.fg img{width:100%;max-height:480px;object-fit:cover;display:block}
+#lb{display:none;position:fixed;inset:0;background:#000d;z-index:50;align-items:center;justify-content:center;padding:1rem;cursor:zoom-out}
+#lb.on{display:flex}
+#lb img{max-width:100%;max-height:100%;border-radius:8px}
+footer{text-align:center;padding:1.5rem 1rem;background:#0d2238;color:#d6e6f7;font-size:.9rem}
+@media(max-width:720px){
+#tg{display:block}
+nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--c1);padding:.6rem;flex-direction:column}
+nav.open{display:flex}
+.hero{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="bar">
+<span class="logo">🏫 Memória Marien Ngouabi</span>
+<button id="tg" aria-label="Abrir menu">☰</button>
+<nav id="nav">
+<a href="#inicio">Início</a><a href="#introducao">Introdução</a><a href="#objectivos">Objectivos</a><a href="#desenvolvimento">Desenvolvimento</a><a href="#cronologia">Cronologia</a><a href="#galeria">Galeria</a><a href="#propostas">Propostas</a><a href="#conclusao">Conclusão</a><a href="#referencias">Referências</a><a href="#grupo">Grupo</a>
+</nav>
+</div>
+</header>
+
+<main>
+
+<!-- INÍCIO -->
+<section class="page" id="inicio">
+<div class="hero">
+<div>
+<h1>História e Evolução da Escola Secundária Marien Ngouabi</h1>
+<p class="lead">De Escola Primária Completa, em 1977, a Escola Secundária, em 2015. Conhece a história de uma escola de Xai-Xai, província de Gaza, ligada às cheias de 1977, à formação de um bairro e à memória de um líder africano.</p>
+<a class="btn" href="#desenvolvimento">Ler a história</a><a class="btn alt" href="#cronologia">Ver a cronologia</a>
+</div>
+<svg viewBox="0 0 320 280" role="img" aria-label="Ilustração: edifício escolar, sol e ondas">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f4c81"/><stop offset="1" stop-color="#1b78c2"/></linearGradient></defs>
+<circle cx="160" cy="140" r="130" fill="#e4eef8"/>
+<circle cx="245" cy="70" r="28" fill="#d99a00"/>
+<rect x="60" y="120" width="200" height="90" rx="6" fill="url(#g)"/>
+<path d="M50 122 L160 70 L270 122Z" fill="#0d2238"/>
+<rect x="148" y="160" width="24" height="50" fill="#d99a00"/>
+<g fill="#fff"><rect x="78" y="140" width="26" height="24" rx="3"/><rect x="116" y="140" width="22" height="24" rx="3"/><rect x="182" y="140" width="22" height="24" rx="3"/><rect x="218" y="140" width="26" height="24" rx="3"/></g>
+<path d="M160 70 L160 40" stroke="#0d2238" stroke-width="3"/><path d="M160 40 L186 48 L160 56Z" fill="#d99a00"/>
+<path d="M30 228 Q60 212 90 228 T150 228 T210 228 T270 228 T310 228" fill="none" stroke="#1b78c2" stroke-width="5" opacity=".6"/>
+<text x="160" y="262" text-anchor="middle" font-size="15" font-weight="700" fill="#0f4c81">Xai-Xai • 1977 • Memória</text>
+</svg>
+</div>
+<div class="stat"><span>📅 Fundada em 1977</span><span>📍 Xai-Xai, Gaza</span><span>🎓 Secundária desde 2015</span></div>
+<div class="grid">
+<div class="card"><h3>🌊 As cheias de 1977</h3><p>O contexto que levou à organização de novas comunidades no sul de Moçambique.</p></div>
+<div class="card"><h3>🌍 Um nome africano</h3><p>Homenagem a Marien Ngouabi, antigo presidente da República do Congo.</p></div>
+<div class="card"><h3>📈 Evolução</h3><p>Primária Completa, anexa da Escola Joaquim Chissano e, por fim, Escola Secundária.</p></div>
+</div>
+<img class="ph" src="imagens/foto-escola.jpg" alt="Pátio da Escola Secundária Marien Ngouabi, com as salas de aula ao fundo" loading="lazy" onerror="this.style.display='none'">
+<div class="quote">A escola é um património histórico e social da comunidade, cuja memória merece ser preservada e transmitida às futuras gerações.</div>
+</section>
+
+<!-- INTRODUÇÃO -->
+<section class="page" id="introducao">
+<h2>Introdução</h2>
+<p>A Escola Secundária Marien Ngouabi é uma instituição de ensino localizada na cidade de Xai-Xai, província de Gaza. A sua história está profundamente relacionada com o desenvolvimento da educação na região e com as transformações sociais ocorridas em Moçambique, particularmente na década de 1970.</p>
+<p>Fundada em 1977, a instituição começou por funcionar como Escola Primária Completa, desempenhando um papel importante na formação académica das crianças da comunidade.</p>
+<p>Ao longo dos anos, passou por diferentes transformações administrativas e pedagógicas, destacando-se a sua vinculação à Escola Secundária Joaquim Chissano, em 2006, e a sua posterior elevação à categoria de Escola Secundária, no dia 23 de Fevereiro de 2015.</p>
+<p>A atribuição do nome Marien Ngouabi representa também uma ligação à história africana, uma vez que a instituição homenageia um antigo presidente da República do Congo, cuja trajectória política e militar marcou a história do continente.</p>
+<p>O presente trabalho apresenta o historial da escola, desde a sua origem até à actualidade, abordando igualmente o contexto das cheias de 1977, a formação do bairro, a biografia de Marien Ngouabi e as principais etapas da evolução da instituição.</p>
+</section>
+
+<!-- OBJECTIVOS -->
+<section class="page" id="objectivos">
+<h2>Objectivos</h2>
+<div class="card"><h3>Objectivo geral</h3><p>Conhecer a história e a evolução da Escola Secundária Marien Ngouabi, desde a sua fundação até à actualidade.</p></div>
+<h3>Objectivos específicos</h3>
+<ul>
+<li>Conhecer as circunstâncias históricas da fundação da escola.</li>
+<li>Compreender a origem e o significado do nome Marien Ngouabi.</li>
+<li>Conhecer a biografia e a carreira política e militar de Marien Ngouabi.</li>
+<li>Compreender a relação entre as cheias de 1977 e a formação do Bairro Marien Ngouabi.</li>
+<li>Identificar as principais transformações administrativas e pedagógicas da instituição.</li>
+<li>Conhecer a primeira directora da escola após a sua elevação à categoria de secundária.</li>
+<li>Reconhecer a importância da instituição para a comunidade.</li>
+</ul>
+</section>
+
+<!-- DESENVOLVIMENTO -->
+<section class="page" id="desenvolvimento">
+<h2>Desenvolvimento</h2>
+
+<h3>1. Origem e fundação</h3>
+<p>A Escola Secundária Marien Ngouabi foi fundada em 1977, na cidade de Xai-Xai, província de Gaza. A sua origem está associada ao contexto de reorganização social e territorial que se verificou na região após as cheias que afectaram o vale do rio Limpopo.</p>
+<p>Inicialmente, funcionava como Escola Primária Completa, proporcionando formação escolar às crianças da comunidade. A fundação ocorreu no mesmo ano em que se organizou a comunidade que passou a ser conhecida como Bairro Marien Ngouabi.</p>
+<p>Segundo o estudo de Edson Tito Fafetine e Ângelo Américo Mauai, a escola recebeu esse nome em homenagem ao antigo presidente da República do Congo, Marien Ngouabi.</p>
+
+<h3>2. As cheias de 1977 e a formação do bairro</h3>
+<p>Em Fevereiro de 1977, Moçambique foi atingido por fortes chuvas associadas à Depressão Tropical Emily, provocando grandes inundações nas províncias do sul, particularmente em Gaza. O transbordo do rio Limpopo teve graves consequências para as populações das margens.</p>
+<div class="grid">
+<div class="card"><h3>🏚️ Habitações</h3><p>Destruição de habitações e infra-estruturas.</p></div>
+<div class="card"><h3>🌾 Agricultura</h3><p>Destruição de campos agrícolas e sistemas de irrigação.</p></div>
+<div class="card"><h3>🛣️ Estradas</h3><p>Interrupção de estradas e pontes.</p></div>
+<div class="card"><h3>👨‍👩‍👧 Famílias</h3><p>Perda de vidas, de animais e de bens, e deslocação de numerosas famílias.</p></div>
+</div>
+<p>Como consequência, muitas famílias tiveram de abandonar as zonas baixas e procurar locais mais elevados e seguros.</p>
+<h3>Formação da comunidade de Marien Ngouabi</h3>
+<p>De acordo com a investigação de Fafetine e Mauai, a formação da comunidade esteve relacionada com a organização de uma aldeia que envolveu pessoas provenientes das cheias do Bilene. Quando chegaram à região, algumas dessas populações foram temporariamente acolhidas na Escola de Madeyeni, enquanto se organizava a nova comunidade.</p>
+<p>Depois, iniciou-se a organização da aldeia e a ocupação dos espaços circundantes, dando origem ao Bairro Marien Ngouabi. O nome Madeyeni permaneceu associado à memória do local. As cheias de 1977 contribuíram ainda para o surgimento de outras aldeias comunais em Xai-Xai, como Patrice Lumumba e Coca Missava.</p>
+
+<h3>3. Origem do nome Marien Ngouabi</h3>
+<p>O nome foi atribuído em homenagem a uma personalidade histórica africana. A escolha não foi aleatória: representava solidariedade pan-africanista, reconhecimento entre os povos africanos e valorização das personalidades que marcaram a luta pela independência e soberania dos países do continente.</p>
+<div class="note">📌 O papel de Marien Ngouabi na história do bairro foi simbólico: o seu nome foi usado como homenagem. Nas fontes consultadas não há comprovação de que tenha dirigido o reassentamento das famílias ou participado na construção da escola.</div>
+
+<h3>4. Biografia de Marien Ngouabi</h3>
+<p>Militar e político congolês, desempenhou um papel importante na história da República do Congo (Congo-Brazzaville). Nasceu a 31 de Dezembro de 1938, em Ombélé, próximo de Owando, no norte do país, numa família camponesa.</p>
+<details open><summary>Formação académica e militar</summary><p>Iniciou os estudos primários em Owando, em 1947. Em 1953, ingressou na Escola Militar Preparatória Général-Leclerc, em Brazzaville. Prosseguiu a preparação em França, em instituições de formação de oficiais, e regressou ao Congo em 1962 com a patente de segundo-tenente.</p></details>
+<details><summary>Carreira militar</summary><p>Exerceu funções nas Forças Armadas e foi comandante de unidades militares, incluindo o primeiro batalhão de paraquedistas do Congo. A experiência militar contribuiu para a sua entrada na vida política.</p></details>
+<details><summary>Carreira política e chegada à presidência</summary><p>Em Agosto de 1968, destacou-se nas mudanças políticas que levaram à criação do Conselho Nacional da Revolução. A 31 de Dezembro de 1968, assumiu a liderança do Estado. Foi adoptada uma orientação socialista e, em 1969, o país passou a designar-se República Popular do Congo.</p></details>
+<details><summary>Fundação do Partido Congolês do Trabalho</summary><p>A 31 de Dezembro de 1969, fundou o Partido Congolês do Trabalho (PCT), que passou a ter um papel central na organização política do país. Entre os aspectos associados à sua governação: defesa da soberania nacional, unidade nacional, valorização da educação, promoção da saúde pública e solidariedade entre os povos africanos.</p></details>
+<details><summary>Morte</summary><p>Faleceu a 18 de Março de 1977, em Brazzaville, assassinado quando ainda era presidente, com 38 anos. Foi um acontecimento marcante na memória nacional do Congo. Coincide com o ano da fundação da escola e da organização do bairro.</p></details>
+
+<h3>5. Relação entre Marien Ngouabi, as cheias e o bairro</h3>
+<div class="steps">
+<div><b>1.º</b><small>Fev. 1977: as cheias do Limpopo deslocam famílias das zonas baixas.</small></div>
+<div><b>2.º</b><small>As populações afectadas, incluindo pessoas do Bilene, organizam uma nova comunidade, acolhida inicialmente em Madeyeni.</small></div>
+<div><b>3.º</b><small>O bairro e a escola recebem o nome de Marien Ngouabi, em homenagem ao presidente congolês falecido no mesmo ano.</small></div>
+</div>
+<p><b>As cheias explicam o contexto de formação da comunidade; a homenagem explica a escolha do nome.</b> Esta distinção é fundamental para compreender correctamente o historial da escola.</p>
+
+<h3>6. A primeira directora da escola secundária</h3>
+<p>Após a elevação à categoria de Escola Secundária, a 23 de Fevereiro de 2015, foi nomeada primeira directora a Sra. Antonieta Naftal Madede, que assumiu a responsabilidade de dirigir o funcionamento da instituição nesta nova etapa.</p>
+
+<h3>7. Importância para a comunidade</h3>
+<ul>
+<li>Promoção do acesso à educação.</li>
+<li>Formação académica e intelectual dos jovens.</li>
+<li>Preparação dos estudantes para o ensino superior.</li>
+<li>Desenvolvimento de valores como responsabilidade, disciplina e cidadania.</li>
+<li>Contribuição para o desenvolvimento social da comunidade.</li>
+<li>Preservação da memória histórica do bairro e da personalidade que deu nome à escola.</li>
+</ul>
+</section>
+
+<!-- CRONOLOGIA -->
+<section class="page" id="cronologia">
+<h2>Cronologia da escola</h2>
+<div class="tl">
+<div class="it"><b>Fevereiro de 1977</b>Cheias do rio Limpopo em Gaza. Famílias abandonam as zonas baixas.</div>
+<div class="it"><b>1977</b>Fundação da instituição, como Escola Primária Completa. Organização do Bairro Marien Ngouabi.</div>
+<div class="it"><b>2006</b>Passa a funcionar como anexa da Escola Secundária Joaquim Chissano.</div>
+<div class="it"><b>23 de Fevereiro de 2015</b>Elevação à categoria de Escola Secundária.</div>
+<div class="it"><b>2015</b>Antonieta Naftal Madede assume funções como primeira directora da escola secundária.</div>
+</div>
+<h3>Resumo em tabela</h3>
+<div class="wrap"><table>
+<tr><th>Ano / Data</th><th>Acontecimento</th></tr>
+<tr><td>1977</td><td>Fundação; funcionamento como Escola Primária Completa</td></tr>
+<tr><td>2006</td><td>Anexa da Escola Secundária Joaquim Chissano</td></tr>
+<tr><td>23/02/2015</td><td>Elevação à categoria de Escola Secundária</td></tr>
+<tr><td>2015</td><td>Primeira directora: Antonieta Naftal Madede</td></tr>
+</table></div>
+<div class="note">⚠️ Grupo: o estudo consultado não confirma o dia em que a escola comemora o seu aniversário. Confirmem a data oficial e os nomes dos primeiros responsáveis com a Direcção da escola, juntem aqui a informação e apaguem esta nota.</div>
+</section>
+
+<!-- GALERIA -->
+<section class="page" id="galeria">
+<h2>Galeria de fotografias</h2>
+<p>Registos da Escola Secundária Marien Ngouabi, em Xai-Xai. Toca numa imagem para ampliar.</p>
+<h3>Com o pedagógico da escola</h3>
+<div class="gal">
+<figure><img src="imagens/grupo-pedagogico-1.jpg" alt="Alunas do grupo com o pedagógico Sarmento Monjane, no pátio da escola" loading="lazy"><figcaption>Alunas do grupo com o pedagógico da escola, Sarmento Monjane.</figcaption></figure>
+<figure><img src="imagens/grupo-pedagogico-2.jpg" alt="Alunas do grupo com o pedagógico Sarmento Monjane, no pátio da escola" loading="lazy"><figcaption>Outro momento da visita, com o pedagógico Sarmento Monjane.</figcaption></figure>
+<figure><img src="imagens/grupo-pedagogico-3.jpg" alt="Alunas do grupo com o pedagógico Sarmento Monjane, em formato vertical" loading="lazy"><figcaption>Fotografia de grupo com o pedagógico Sarmento Monjane.</figcaption></figure>
+</div>
+<h3>A escola</h3>
+<div class="gal">
+<figure><img src="imagens/placa-escola.jpg" alt="Fachada com o emblema e o nome Escola Secundária Marien Ngouabi" loading="lazy"><figcaption>Fachada com o emblema e o nome da escola.</figcaption></figure>
+<figure><img src="imagens/edificio-escola.jpg" alt="Bloco de salas de aula visto do pátio" loading="lazy"><figcaption>Bloco de salas de aula e pátio.</figcaption></figure>
+<figure><img src="imagens/foto-escola.jpg" alt="Pátio com árvores, salas 11 e 12 e edifício administrativo" loading="lazy"><figcaption>Pátio e salas 11 e 12.</figcaption></figure>
+<figure><img src="imagens/patio-1.jpg" alt="Pátio da escola com árvores e salas de aula" loading="lazy"><figcaption>Pátio sombreado, entre as salas de aula.</figcaption></figure>
+<figure><img src="imagens/patio-2.jpg" alt="Árvores no pátio e salas de aula ao fundo" loading="lazy"><figcaption>Árvores do pátio e salas de aula.</figcaption></figure>
+<figure><img src="imagens/patio-3.jpg" alt="Pátio da escola visto da varanda, com palmeira ao fundo" loading="lazy"><figcaption>Pátio visto da varanda.</figcaption></figure>
+</div>
+<div class="note">📌 Créditos: fotografias do arquivo do grupo (Outubro e Novembro de 2026). A imagem da fachada é uma captura de reportagem televisiva; confirmem e indiquem o crédito antes de apresentar.</div>
+</section>
+
+<!-- PROPOSTAS -->
+<section class="page" id="propostas">
+<h2>Propostas e recomendações</h2>
+<p>Para que a memória da escola não se perca, o grupo propõe:</p>
+<ul>
+<li>Organizar o arquivo histórico da escola (documentos, fotografias, actas), com apoio da Direcção.</li>
+<li>Criar um cantinho da memória na escola, com a cronologia e as fotografias.</li>
+<li>Recolher testemunhos de antigos alunos, professores e moradores do bairro, com autorização de cada pessoa.</li>
+<li>Assinalar o aniversário da escola com uma actividade cultural e histórica.</li>
+<li>Incluir o historial da escola nas actividades de História e de Geografia.</li>
+</ul>
+<details open><summary>Aos alunos</summary><p>Conheçam a história da vossa escola e do bairro, valorizem o património e ajudem a transmiti-lo.</p></details>
+<details><summary>Aos professores</summary><p>Integrem o historial da escola nas aulas e promovam trabalhos de pesquisa com fontes credíveis.</p></details>
+<details><summary>Aos encarregados de educação e à comunidade</summary><p>Partilhem memórias e documentos sobre o bairro e a escola, contribuindo para o registo da sua história.</p></details>
+<details><summary>À Direcção da escola</summary><p>Preserve e disponibilize o historial escrito, confirme as datas oficiais e identifique quem dirigiu a escola em cada etapa.</p></details>
+</section>
+
+<!-- CONCLUSÃO -->
+<section class="page" id="conclusao">
+<h2>Conclusão</h2>
+<p>A história da Escola Secundária Marien Ngouabi é marcada por acontecimentos históricos, transformações sociais e diferentes etapas de desenvolvimento educativo. Desde a fundação, em 1977, como Escola Primária Completa, passando pela vinculação à Escola Secundária Joaquim Chissano, em 2006, até à elevação a Escola Secundária, em 23 de Fevereiro de 2015, a instituição percorreu um caminho significativo.</p>
+<p>A sua origem está relacionada com a reorganização das comunidades após as cheias de 1977, que afectaram Gaza e contribuíram para o surgimento de novas aldeias comunais. A homenagem a Marien Ngouabi representa uma ligação à história política africana e aos ideais de solidariedade, unidade e independência dos povos do continente. A nomeação de Antonieta Naftal Madede como primeira directora da escola secundária é também um marco da sua história administrativa.</p>
+<div class="quote">A Escola Secundária Marien Ngouabi não é apenas um espaço de ensino e aprendizagem, mas também um património histórico e social da comunidade de Xai-Xai.</div>
+</section>
+
+<!-- REFERÊNCIAS -->
+<section class="page" id="referencias">
+<h2>Referências bibliográficas</h2>
+<ul>
+<li>FAFETINE, Edson Tito; MAUAI, Ângelo Américo. (2024). <i>Estudo de nomes próprios de escolas da cidade de Xai-Xai à luz da Onomástica: um contributo para a preservação de dados político-sócio-histórico-geográfico-culturais</i>. Revista Njinga &amp; Sepé.</li>
+<li>SITOE, Iceu Carlos. (2023). <i>Aldeia Comunal Ravene: Coletivização, transformações sociais e violência cultural em Moçambique, 1976-1992</i>. Universidade Federal de Minas Gerais.</li>
+<li>PARTIDO CONGOLÊS DO TRABALHO. <i>Biografia de Marien Ngouabi</i>.</li>
+<li>SOUTH AFRICAN HISTORY ONLINE. <i>Marien Ngouabi, President of Congo dies</i>. 18 de Março de 1977.</li>
+<li>ESCOLA SECUNDÁRIA MARIEN NGOUABI. <i>Historial escrito da Escola Secundária Marien Ngouabi</i>. Documento institucional não publicado.</li>
+</ul>
+<div class="note">⚠️ Grupo: se usarem fotografias, acrescentem aqui o crédito de cada uma (autor ou fonte) e confirmem a autorização das pessoas que aparecem.</div>
+</section>
+
+<!-- GRUPO -->
+<section class="page" id="grupo">
+<h2>Elementos do grupo</h2>
+<div class="grid">
+<div class="card"><h3>Escola</h3><p>Escola Secundária Marien Ngouabi, Xai-Xai</p></div>
+<div class="card"><h3>Turma / Classe</h3><p>[ex.: 12.ª classe, turma A02]</p></div>
+<div class="card"><h3>Professor(a)</h3><p>[Nome do professor(a)]</p></div>
+</div>
+<figure class="fg"><img src="imagens/grupo-pedagogico-1.jpg" alt="Alunas do grupo com o pedagógico Sarmento Monjane" loading="lazy"><figcaption>O grupo com o pedagógico da escola, Sarmento Monjane.</figcaption></figure>
+<h3>Membros</h3>
+<ol><li>[Nome completo]</li><li>[Nome completo]</li><li>[Nome completo]</li><li>[Nome completo]</li></ol>
+</section>
+
+</main>
+<footer>© 2026 • Trabalho escolar: História e Evolução da Escola Secundária Marien Ngouabi • Xai-Xai, Gaza</footer>
+
+<script>
+(function(){
+var pages=[].slice.call(document.querySelectorAll('.page')),links=[].slice.call(document.querySelectorAll('nav a')),nav=document.getElementById('nav');
+function show(){
+var id=(location.hash||'#inicio').slice(1);
+if(!document.getElementById(id))id='inicio';
+pages.forEach(function(p){p.classList.toggle('on',p.id===id)});
+links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+id)});
+nav.classList.remove('open');
+window.scrollTo(0,0);
+}
+window.addEventListener('hashchange',show);
+document.getElementById('tg').addEventListener('click',function(){nav.classList.toggle('open')});
+show();
+})();
+</script>
+<div id="lb"><img alt=""></div>
+<script>
+(function(){var lb=document.getElementById("lb"),im=lb.querySelector("img");document.querySelectorAll(".gal img").forEach(function(i){i.addEventListener("click",function(){im.src=i.src;im.alt=i.alt;lb.classList.add("on")})});lb.addEventListener("click",function(){lb.classList.remove("on")});document.addEventListener("keydown",function(e){if(e.key==="Escape")lb.classList.remove("on")})})();
+</script>
+<noscript><style>.page{display:block!important}</style></noscript>
+</body>
+</html>
